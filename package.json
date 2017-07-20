@@ -1,0 +1,28 @@
+{
+  "name": "desafio-responsivo-ui",
+  "version": "1.0.0",
+  "description": "Desafio layout responsivo com api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobsenanaizabel/desafio-responsivo-ui.git"
+  },
+  "keywords": [
+    "angular",
+    "grunt",
+    "bootstrap4",
+    "sass\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dbower",
+    "grunt",
+    "bootstrap4",
+    "css"
+  ],
+  "author": "Ana Izabel Alfaro Jacobsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobsenanaizabel/desafio-responsivo-ui/issues"
+  },
+  "homepage": "https://github.com/jacobsenanaizabel/desafio-responsivo-ui#readme"
+}
