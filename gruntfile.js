@@ -8,6 +8,7 @@ module.exports = function(grunt) {
 			target: {
 				files: {
 					'content/css/min/style.min.css': [
+						'bower_components/normalize-css/normalize.css',
 						'content/css/main.css',
 						'content/css/mobile.css'
 					]

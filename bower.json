@@ -24,6 +24,10 @@
   ],
   "devDependencies": {
     "bootstrap": "v4.0.0-alpha.6",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "normalize-css": "normalize.css#^7.0.0"
+  },
+  "dependencies": {
+    "angular": "1.6.4"
   }
 }

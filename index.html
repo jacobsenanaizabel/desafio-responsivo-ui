@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" ng-app="app">
 <head>
-	<title>Desafio OLX</title>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafio SPA</title>
+	<!-- FAVICON -->
+	<link rel="icon" type="ico" href="content/img/favicon.ico">
 	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="content/css/min/style.min.css">
 	<!-- JS -->
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<!--APP -->
+	<script src="app/controllers/app.controller.js"></script>
+	<script src="app/controllers/main.controller.js"></script>
 </head>
 <body>
-	<div class="hold">
-		<h1 class="title">Grunt :)</h1>
+	<div id="app-container" ng-controller="MainController as main">
+		<div ng-include="'app/views/announcement-list.html'"></div>
 	</div>
 </body>
 </html>
