@@ -1,26 +1,68 @@
 <div ng-include="'app/views/announcement/breadcrumb.html'"></div>
 <div ng-include="'app/views/announcement/banner.html'"></div>
 <div class="row">
-    <div class="col-lg-3" style="background: blue;">
-        <h4>Subheading</h4>
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-        <h4>Subheading</h4>
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-        <h4>Subheading</h4>
-        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-    </div>
-
-    <div class="col-lg-9" style="background: yellow;">
-        <h4>Subheading</h4>
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-        <h4>Subheading</h4>
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-        <h4>Subheading</h4>
-        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    <aside class="col-md-3" style="background: blue;">
+        <div ng-include="'app/views/announcement/announcement-search.html'"></div>
+    </aside>
+    <div class="col-md-9" style="background: yellow;">
+        <div ng-include="'app/views/announcement/announcement-localization.html'"></div>
+        <div ng-include="'app/views/announcement/announcement-galery.html'"></div>
+            <!-- Filtro de ordenação de produto -->
+            <div class="section_filter-order" style="background:pink;">
+                <div class="section_filterby">
+                    <ul class="list">
+                        <li class="item all">
+                            <span class="text">Todos</span>
+                            <span class="qtd">1.301.904</span>
+                        </li>
+                        <li class="item private">
+                            <a id="private_link" class="link"  title="Particular"  href="http://rj.olx.com.br/?f=p">Particular</a>
+                            <span class="qtd">1.021.451</span>
+                        </li>
+                        <li class="item professional">
+                            <a id="company_link" class="link" title="Profissional" href="http://rj.olx.com.br/?f=c">Profissional</a>
+                            <span class="qtd">280.453</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section_orderby">
+                    <a class="link" rel="nofollow" title="Ordenar por preço" href="http://rj.olx.com.br/?sp=1">
+                        Ordenar por preço
+                    </a>
+                </div>
+            </div>
+            <!-- fim do filtro-->
+            <div class="section-announcement-list">
+                <ul>
+                    <li class="card-item">
+                        <div class="col-1">
+                            <div class="card-galery-box">
+                                <div class="card-image-box">
+                                    <img class="image" src="http://img.olx.com.br/thumbsli/69/699722026796000.jpg" alt="Pneus aro 15">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="card-2-label">
+                                <h3>
+                                    Pneus aro 15
+                                </h3>
+                            </div>
+                            <div class="card-2-label-line">
+                                <p class="text detail-region"> São Gonçalo,Rocha</p>
+                                <p class="text detail-category">Peças e acessórios</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+							<label class="card3-label-price"> R$ 180</label>
+                        </div>
+                        <div class="col-4">
+							<p class="text detail-today">Hoje</p>
+							<p class="text detail-hour">11:15</p>
+						</div>
+                    </li>
+                </ul>
+            </div>
     </div>
 </div>
 <div ng-include="'app/views/announcement/pagination.html'"></div>
