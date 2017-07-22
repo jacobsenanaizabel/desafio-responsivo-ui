@@ -10,17 +10,26 @@
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="content/css/min/style.min.css">
 	<!-- JS -->
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/tether/dist/js/tether.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script src="bower_components/angular/angular.min.js"></script>
 	<!--APP -->
 	<script src="app/controllers/app.controller.js"></script>
 	<script src="app/controllers/main.controller.js"></script>
+	<script src="app/services/main.service.js"></script>
 </head>
 <body>
-	<div id="app-container" ng-controller="MainController as main">
+	<div class="container" ng-controller="MainController as main">
+		<div ng-include="'app/views/header.html'"></div>
 		<div ng-include="'app/views/announcement-list.html'"></div>
+		<div ng-include="'app/views/footer.html'"></div>
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="scripts/ie10-viewport-bug-workaround.js"></script>
 	</div>
 </body>
 </html>
