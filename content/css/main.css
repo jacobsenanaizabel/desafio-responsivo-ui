@@ -34,7 +34,7 @@ header#header{
 }
 
 input.form-control.search-all{
-	background-image: url('../../img/search.svg');
+	background-image: url('../../img/search-icon.svg');
 	display: block;
     overflow: hidden;
     background-size: 22px;
@@ -188,4 +188,142 @@ li.item.col.localization {
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
+}
+
+.col.galery-announcement {
+    float: left;
+    width: 242px;
+}
+
+h3.gallery-title {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.167em;
+    max-height: 42px;
+    overflow: hidden;
+    font-weight: 200;
+    padding-top: 21px;
+}
+img.thumbnail.img-responsive {
+    display: block;
+    height: 92px;
+    padding: 5px;
+    width: 102px;
+    overflow: hide;
+}
+.gallery-price {
+    font-weight: bold;
+    color: #EE6600;
+    margin: 0px;
+}
+
+.item.all {
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+.section_filter-order.row {
+    margin: 0px;
+}
+
+.section_filterby_save {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    height: 51px;
+    margin-top: 11px;
+    display: inline-flex;
+}
+.heart-icon{
+    background-image: url('../../img/heart-icon.svg');
+    margin-top: 8px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 33px;
+}
+a.btn-save {
+    font-weight: bold;
+    color:black;
+}
+
+span.label-save-search.col-md-9 {
+    margin-top: 12px;
+}
+
+.section-announcement-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li.card-item.row {
+    border: 1px solid #ccc;
+    margin-bottom: 0px;
+}
+
+.title-item {
+    color: #333333;
+    font-size: 1.167em;
+    font-weight: 700;
+    line-height: 1.143em;
+    max-height: 32px;
+    overflow: hidden;
+    height: 51px;
+}
+
+.card-2-label {
+    height: 70px;
+}
+
+p.text.detail-region {
+    font-size: 1em;
+    line-height: 1.167em;
+}
+
+.col-box {
+    margin-top: 11px;
+}
+
+p.text.detail-today {
+    color: #ccc;
+    font-size: 0.04em;
+}
+
+p.text.detail-region {
+    font-size: 0.08em;
+    line-height: 1.167em;
+    font-weight: bold;
+    color: #333333;
+}
+#price{
+    font-size: larger;
+}
+/* pagination */
+i.fa.fa-chevron-left {
+    float: left;
+    margin-top: 11px;
+    color: #2195db;
+}
+#button-next-page{
+    font-size: medium;
+}
+.pagination{
+    margin-top:10px;
+}
+/* footer */
+p.ng-binding {
+    text-align: center;
+    margin-top: 6px;
+    font-family: cursive;
+}
+.line-footer{
+        border-top: 3px solid #272B38;
+}
+.page-status {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #333333;
+    background-color: #fff;
 }
