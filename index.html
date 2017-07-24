@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Desafio SPA</title>
+	<title>Desafio Responsivo API</title>
 	<!-- FAVICON -->
 	<link rel="icon" type="ico" href="content/img/favicon.ico">
 	<!-- CSS -->
@@ -15,11 +15,15 @@
 	<script src="bower_components/tether/dist/js/tether.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/underscore/underscore-min.js"></script>
 	<!--APP -->
 	<script src="app/controllers/app.controller.js"></script>
 	<script src="app/controllers/main.controller.js"></script>
 	<script src="app/modules/announcement-list/scripts/announcement.controller.js"></script>
 	<script src="app/services/main.service.js"></script>
+	<script src="app/modules/announcement-list/scripts/announcement.service.js"></script>
+	<script src="app/modules/announcement-list/scripts/category.model.js"></script>
+	<script src="app/modules/announcement-list/scripts/items.model.js"></script>
 </head>
 <body>
 	<div class="container" ng-controller="MainController as main">

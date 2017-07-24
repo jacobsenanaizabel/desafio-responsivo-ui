@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "angular": "1.6.4",
-    "components-font-awesome": "^4.7.0"
+    "components-font-awesome": "^4.7.0",
+    "underscore": "^1.8.3"
   }
 }

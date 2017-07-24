@@ -2,7 +2,7 @@
     <div ng-include="'app/modules/announcement-list/views/breadcrumb.html'"></div>
     <div ng-include="'app/modules/announcement-list/views/banner.html'"></div>
     <div class="row">
-        <aside class="col-md-3">
+        <aside class="col-md-3" ng-init='load()'>
             <div ng-include="'app/modules/announcement-list/views/announcement-search.html'"></div>
         </aside>
         <div class="col-md-9">
