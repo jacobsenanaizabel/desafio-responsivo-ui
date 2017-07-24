@@ -14,4 +14,23 @@ app.controller('AnnouncementController', function($scope,AnnouncementService,Cat
             $scope.categories.push(new CategoryModel(category));
         });
     }
+
+   $scope.states_brasil = [
+        "Acre	AC",
+        "Alagoas	AL",
+        "Amapá	AP",
+        "Amazonas AM",
+        "Bahia	BA",
+        "Ceará	CE",
+        "Distrito Federal DF",
+        "Espírito Santo ES",
+        "Goiás GO",
+        "Maranhão MA",
+        "Mato Grosso MT",
+        "Mato Grosso do Sul MS",
+        "Minas Gerais MG",	 
+        "Pará PA",	 
+        "Paraíba	PB",	 
+        "Paraná	PR"
+    ];
 });

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('app/modules/announcement-list/style/announcement-list.css');
 
 body {
 	margin: 0;
@@ -13,7 +12,6 @@ ul {
 
 a.link {
     color: #38b;
-    font-weight: 700;
 }
 
 header#header{
@@ -137,13 +135,13 @@ div#search-category {
 }
 
 li.nav-item.col.header{
-    background-color: #fff4a6;
-    border-bottom: 1px solid #fff4a6;
+    background-color: #FFF8DA;
+    border-bottom: 1px solid #FFF8DA;
     border-radius: 3px 3px 0 0;
 }
 a.nav-link.active.link{
-    background-color: #fff4a6;
-    border-color: #fff4a6;
+    background-color: #FFF8DA;
+    border-color: #FFF8DA;
     color: #333;
     font-size: 1.09em;
     font-weight: 600;
@@ -179,13 +177,14 @@ i.fa.fa-chevron-down {
 li.item.col.localization {
     float: left;
     margin-top: 9px;
-    width: 300px;
+    width: 205px;
+
 }
 
 .linkshelf-tables-body.row {
     width: 100%;
     margin-left: 0%;
-    background-color: #fff4a6;
+    background-color: #FFF8DA;
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;

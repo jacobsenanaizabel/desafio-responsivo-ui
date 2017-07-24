@@ -13,7 +13,10 @@
 						<h1 class="search-category-title">Filtrar</h1>
 				</div>
                 <div id="save_favorite_search">
+					<ul ng-repeat="categorie in categories" style="border-bottom: 1px solid #ccc;">
+						<li class="categories-label" style="margin-left:50px;margin-top:20px;height: 38px;color: #2195db;">{{categorie.label}}</li>
+					</ul>
                 </div>
 			</div>
 		</form>
-	</div>
+</div>

@@ -21,24 +21,9 @@
     </div>
     <div>
         <div class="linkshelf-tables-body row">
-            <ul class="list">
+            <ul class="list"  ng-repeat="state in states_brasil">
                 <li class="item col localization">
-                    <p class="text"><a class="link" href="#"  title="DDD 21 - Rio de Janeiro e região">Acre (AC)</a></p>
-                </li>
-                <li class="item col localization">
-                    <p class="text"><a class="link" href="#"  title="DDD 24 - Serra, Angra dos Reis e região">Alagoas (AL)</a></p>
-                </li>
-                <li class="item col localization">
-                    <p class="text"><a class="link" href="#"  title="DDD 22 - Norte do Estado e Região dos Lagos">Amapa (AP)</a></p>
-                </li>
-                <li class="item col localization">
-                    <p class="text"><a class="link" href="#"  title="DDD 21 - Rio de Janeiro e região">Acre (AC)</a></p>
-                </li>
-                <li class="item col localization">
-                    <p class="text"><a class="link" href="#"  title="DDD 24 - Serra, Angra dos Reis e região">Alagoas (AL)</a></p>
-                </li>
-                <li class="item col localization">
-                    <p class="text"><a class="link" href="#"  title="DDD 22 - Norte do Estado e Região dos Lagos">Amapa (AP)</a></p>
+                    <p class="text"><a class="link" id="state" href="#"  title="DDD 21 - Rio de Janeiro e região">{{state}}</a></p>
                 </li>
             </ul>
         </div>
