@@ -114,24 +114,25 @@ input.form-field.form-field-checkbox {
 }
 
 .section_search-by-category {
-    border: 1px solid #ccc;
     border-radius: 3px;
     overflow: hidden;
+    background-color: #FAFAFA;
+    border: 1px solid #ccc;
 }
 
 h1.search-category-title {
-    background-color: #FAFAFA;
     color: #333333;
-    border: 1px solid #ccc;
     font-size: 1.467em;
     font-weight: 300;
     line-height: 35px;
     overflow: hidden;
     padding: 11px 89px;
+    position: relative;
 }
 
 div#search-category {
     margin-top: -15px;
+    border-bottom: 1px solid #ccc;
 }
 
 li.nav-item.col.header{
@@ -327,3 +328,33 @@ p.ng-binding {
     color: #333333;
     background-color: #fff;
 }
+
+a.breadcrumb-item:hover {
+    color: #333333;
+}
+
+a#link-announcement:hover {
+    color: #034D94;
+}
+
+a.nav-link.decoration:hover {
+    border: none;
+    color: #333333;
+
+}
+div#save_favorite_search ul {
+    border-bottom: 1px solid #ccc;
+}
+div#save_favorite_search li {
+    padding-left:50px;
+    padding-top:20px;
+    padding-bottom:23px;
+    color: #2195db;
+    background-color: #ffffff;
+}
+div#save_favorite_search li:hover {
+    color: #ffffff;
+    background-color: #2195DB;
+
+}
+
