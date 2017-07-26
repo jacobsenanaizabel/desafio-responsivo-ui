@@ -15,6 +15,12 @@ app.controller('AnnouncementController', function($scope,AnnouncementService,Cat
         });
     }
 
+    $scope.getCategoriesMobile = function(){
+        AnnouncementService.getCategories().then(function(response) {
+            startCategoryEdit(response.items);
+        });
+    }
+
    $scope.states_brasil = [
         "Acre	AC",
         "Alagoas	AL",

@@ -29,7 +29,7 @@ ul {
 a.link {
     color: #38b;
 }
-
+/*  banner  */
 header#header{
 	background-color: #FAFAFA;
     display: block;
@@ -92,7 +92,7 @@ a.btn.btn-large.btn-orange {
     padding-right: 23px;
     margin-left: 20px;
 }
-
+/*  breadcrumb  */
 #breadcrumb-box{
 	background-color: #FFF;
 }
@@ -108,7 +108,7 @@ a.btn.btn-large.btn-orange {
 .breadcrumb-item{
 	color: #7f888e;
 }
-
+/* banner decolar */
 .row.justify-content-md-center.advertising.ng-scope {
     height: 139px;
     margin: 0 auto 7px;
@@ -117,7 +117,7 @@ label.form-label {
     font-size: 1em;
     line-height: 1.167em;
 }
-
+/*  menu lateral de categorias */
 input.form-field.form-field-checkbox {
     height: 20px;
     width: 21px;
@@ -147,7 +147,7 @@ div#search-category {
     margin-top: -15px;
     border-bottom: 1px solid #ccc;
 }
-
+/*  nav de estados Brasil */
 li.nav-item.col.header{
     background-color: #FFF8DA;
     border-bottom: 1px solid #FFF8DA;
@@ -192,9 +192,7 @@ li.item.col.localization {
     float: left;
     margin-top: 9px;
     width: 205px;
-
 }
-
 .linkshelf-tables-body.row {
     width: 100%;
     margin-left: 0%;
@@ -203,7 +201,7 @@ li.item.col.localization {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
 }
-
+/*  galeria */
 .col.galery-announcement {
     float: left;
     width: 242px;
@@ -235,7 +233,7 @@ img.thumbnail.img-responsive {
     font-weight: bold;
     margin-top: 26px;
 }
-
+/*  resultado de busca total */
 .section_filter-order.row {
     margin: 0px;
 }
@@ -263,7 +261,7 @@ a.btn-save {
 span.label-save-search.col-md-9 {
     margin-top: 12px;
 }
-
+/*  Lista de anuncio */
 .section-announcement-list {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -310,7 +308,7 @@ p.text.detail-region {
 #price{
     font-size: larger;
 }
-/* pagination */
+/*  Paginação  */
 i.fa.fa-chevron-left {
     float: left;
     margin-top: 11px;
@@ -322,14 +320,13 @@ i.fa.fa-chevron-left {
 .pagination{
     margin-top:10px;
 }
-/* footer */
 p.ng-binding {
     text-align: center;
     margin-top: 6px;
     font-family: cursive;
 }
 .line-footer{
-        border-top: 3px solid #272B38;
+    border-top: 3px solid #272B38;
 }
 .page-status {
     position: relative;

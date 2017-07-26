@@ -1,15 +1,22 @@
 <div id="searchmain" class="section_search mobile-only">
-		<form id="search_form" class="row">
-			<div class="col-sm-9 col-10" id="section_search-by-word">
-				<div class="search-by-word-mobile">
-					<input class="form-control search-all"  type="text" placeholder="O que você procura?">
-				</div>
+	<form id="search_form" class="row">
+		<div class="col-sm-9 col-10" id="section_search-by-word">
+			<div class="search-by-word-mobile">
+				<input class="form-control search-all"  type="text" placeholder="O que você procura?">
 			</div>
-			<div class="col-sm-3 col-2">
-				<button type="button" class="btn btn-default" id="search-btn" aria-label="Left Align">
+		</div>
+		<div class="col-sm-3 col-2">
+			<div class="dropdown">
+				<button class="btn btn-secondary" id="search-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ng-click="getCategoriesMobile()">
 					<i class="fa fa-filter" aria-hidden="true"></i>
 					<P class="filter-mobile">Filtrar</P>
 				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<ul  ng-repeat="category in categories">
+						<li><a class="dropdown-item" href="#">{{category.label}} </a></li>
+					</ul>
+				</div>
 			</div>
-		</form>
+		</div>
+	</form>
 </div>
