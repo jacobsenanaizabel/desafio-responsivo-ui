@@ -1,4 +1,4 @@
-# Desafio OLX 
+# Desafio OLX   :zap: 
 
 Desafio Olx responsiva e Single Page Application
 
