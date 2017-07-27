@@ -27,7 +27,7 @@ $ npm install -g grunt-cli
 $ npm install -g bower
 $ bower install
 ```
-6 . Servidor com o comando 
+7 . Servidor com o comando 
 ```bash
 $ grunt live 
 ```
